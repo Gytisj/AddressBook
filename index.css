@@ -1,0 +1,70 @@
+body {
+    background: black;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.new_contact {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    line-height: 2px;
+    background: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    color: black
+}
+.editas {
+    position: relative;
+    width: 300px;
+    padding-top: 77px;
+}
+
+.enableDisable, .enableDisable1 {
+    display: none;
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-top: 107px;
+}
+#div {
+    line-height: 2px;
+    background: lightgrey;;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    color: black;
+
+}
+h1 {
+    font-size: 24px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.btn {
+    height: 40px;
+    border-radius: 5px;
+}
+.result_container {
+    margin-left: 40px;
+}
+.search {
+    display: inline-block;
+    margin-top: 10px;
+    position: absolute;
+    left: 752px;
+}
+.vissible {
+    display: none;
+}
